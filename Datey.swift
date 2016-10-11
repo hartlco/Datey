@@ -25,6 +25,18 @@ extension Int {
             return hour
         }
     }
+
+    var day: DateComponents {
+        get {
+            return DateComponents(day: self)
+        }
+    }
+
+    var days: DateComponents {
+        get {
+            return day
+        }
+    }
 }
 
 extension Date {
