@@ -1,10 +1,29 @@
 import Foundation
 
 extension Int {
+
     var minute: DateComponents {
         get {
             return DateComponents(minute: self)
-            }
+    }
+        }
+
+    var minutes: DateComponents {
+        get {
+            return minute
+        }
+    }
+
+    var hour: DateComponents {
+        get {
+            return DateComponents(hour: self)
+        }
+    }
+
+    var hours: DateComponents {
+        get {
+            return hour
+        }
     }
 }
 
